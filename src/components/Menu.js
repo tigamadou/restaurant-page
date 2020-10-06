@@ -1,37 +1,36 @@
-import Food_1 from '../assets/images/food-1.jpg'
-import Food_2 from '../assets/images/food-2.jpg'
-import Food_3 from '../assets/images/food-3.jpg'
-import Food_4 from '../assets/images/food-4.jpg'
-import Food_5 from '../assets/images/food-5.jpg'
-import Food_6 from '../assets/images/food-6.jpg'
-export default function Menu(){
-    let element = document.createElement('div')
-    let images = [Food_1,Food_2,Food_3,Food_4,Food_5,Food_6]
+import Food1 from '../assets/images/food-1.jpg';
+import Food2 from '../assets/images/food-2.jpg';
+import Food3 from '../assets/images/food-3.jpg';
+import Food4 from '../assets/images/food-4.jpg';
+import Food5 from '../assets/images/food-5.jpg';
+import Food6 from '../assets/images/food-6.jpg';
 
-    let menus = document.createElement('ul')
-    menus.className='menus'
+export default function Menu() {
+  const element = document.createElement('div');
+  const images = [Food1, Food2, Food3, Food4, Food5, Food6];
 
-    for(var i=0;i<6;i+=1){
-        var menu = document.createElement('li')
-            menu.className = 'menu'
-        var image = document.createElement('img')
-            image.src = images[i]
-        var price = document.createElement('div')
-            price.className= 'price'
-            price.innerHTML=`$${Math.round(Math.random()*100)}` 
-        var title = document.createElement('div')
-            title.className= 'title'
-            title.innerHTML='Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+  const menus = document.createElement('ul');
+  menus.className = 'menus';
 
-            menu.appendChild(image)
-            menu.appendChild(price)
-            menu.appendChild(title)
-            menus.appendChild(menu)
-    }
+  for (let i = 0; i < 6; i += 1) {
+    const menu = document.createElement('li');
+    menu.className = 'menu';
+    const image = document.createElement('img');
+    image.src = images[i];
+    const price = document.createElement('div');
+    price.className = 'price';
+    price.innerHTML = `$${Math.round(Math.random() * 100)}`;
+    const title = document.createElement('div');
+    title.className = 'title';
+    title.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.';
 
+    menu.appendChild(image);
+    menu.appendChild(price);
+    menu.appendChild(title);
+    menus.appendChild(menu);
+  }
 
-    element.appendChild(menus)
+  element.appendChild(menus);
 
-    return element
-   
+  return element;
 }

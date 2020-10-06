@@ -8,19 +8,19 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
-      rules: [
-          {
-              test: /\.s[ac]ss$/,
-              use: [
-                  'style-loader',
-                  'css-loader',
-                  'sass-loader',
-              ]
-          },
-          {
-              test: /\.(png|jpg|gif|svg)$/,
-              use:'file-loader'
-          }
-      ]
-  }
+    rules: [
+      {
+        test: /\.s[ac]ss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        use: 'file-loader',
+      },
+    ],
+  },
 };
