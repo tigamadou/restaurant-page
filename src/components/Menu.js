@@ -18,10 +18,10 @@ export default function Menu(){
             image.src = images[i]
         var price = document.createElement('div')
             price.className= 'price'
-            price.innerHTML='20'
+            price.innerHTML=`$${Math.round(Math.random()*100)}` 
         var title = document.createElement('div')
             title.className= 'title'
-            title.innerHTML='20Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+            title.innerHTML='Lorem ipsum dolor sit amet consectetur adipisicing elit.'
 
             menu.appendChild(image)
             menu.appendChild(price)
