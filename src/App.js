@@ -1,3 +1,6 @@
+import Home from './components/Home'
+import Menu from './components/Menu'
+import Contact from './components/Contact'
 
 export default class App{
     constructor(){
@@ -76,12 +79,14 @@ export default class App{
     menu(){
 
         this.navElement1.classList.add('active');
+        this.renderContent()
 
         this.navElement1.addEventListener('click',() => {
             this.activeMenu='Home'
             this.navElement1.classList.add('active');
             this.navElement2.classList.remove('active');
             this.navElement3.classList.remove('active');
+            this.renderContent()
 
         })
 
@@ -90,6 +95,7 @@ export default class App{
             this.navElement1.classList.remove('active');
             this.navElement2.classList.add('active');
             this.navElement3.classList.remove('active');
+            this.renderContent()
         })
 
         this.navElement3.addEventListener('click',() => {
@@ -97,7 +103,22 @@ export default class App{
             this.navElement1.classList.remove('active');
             this.navElement2.classList.remove('active');
             this.navElement3.classList.add('active');
+            this.renderContent()
         })
+    }
+
+    renderContent (){
+        console.log(this.activeMenu)
+        if(this.activeMenu==='Home'){
+            this.content.innerHTML=''
+            this.content.appendChild(Home())
+        }else if(this.activeMenu==='Menu'){
+            this.content.innerHTML=''
+            this.content.appendChild(Menu())
+        }else{
+            this.content.innerHTML=''
+            this.content.appendChild(Contact())
+        }
     }
     render  () {
         this.menu()
