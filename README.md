@@ -40,7 +40,7 @@
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/tigamadou/restaurant-page/c31b9ac196930a676c267d1fe7dd4851d187702c/dist/index.html" target="_blank" >View Demo</a>
+    <a href="https://rawcdn.githack.com/tigamadou/restaurant-page/7dc77712f08348bd7e72576678894b9711e3ffbe/dist/index.html" target="_blank" >View Demo</a>
     ·
     <a href="https://github.com/tigamadou/restaurant-page/issues">Report Bug</a>
     ·
