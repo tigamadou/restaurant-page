@@ -72,7 +72,7 @@
 
 ![screenshot](./src/assets/images/screenshot.png)
 
-This is a restaurant page built following the [Microverse Program](https://microverse.org)  and [TheOdinProject](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) guidlines.
+This is a restaurant page built following the [Microverse Program](https://microverse.org)  and [TheOdinProject](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) guidelines.
 
 ### Built With
 * [Javascript ES6]()
