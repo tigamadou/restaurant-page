@@ -35,7 +35,7 @@
   <h3 align="center">Restaurant Page</h3>
 
   <p align="center">
-    A simple restaurant page build with Javascript ES6 and Webpack.
+    A simple restaurant page built with Javascript ES6 and Webpack.
     <br />
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
@@ -72,7 +72,7 @@
 
 ![screenshot](./src/assets/images/screenshot.png)
 
-This is a restaurant page build following the [Microverse Program](https://microverse.org)  and [TheOdinProject](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) guidlines.
+This is a restaurant page built following the [Microverse Program](https://microverse.org)  and [TheOdinProject](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) guidlines.
 
 ### Built With
 * [Javascript ES6]()
