@@ -25,7 +25,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-![](https://github.com/tigamadou/restaurant-page/workflows/CI/badge.svg)
+![](https://github.com/tigamadou/restaurant-page/workflows/Linters/badge.svg)
 
 
 <!-- PROJECT LOGO -->
