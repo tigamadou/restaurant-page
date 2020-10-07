@@ -1,0 +1,162 @@
+@import  "https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap"
+body,html
+    padding: 0
+    margin: 0
+    background: #f1f1f1
+    
+    height: 100%
+    font-family: 'Pacifico', sans-serif
+.app
+    height: 100%
+.blurred
+    background-image: url('../images/header.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    filter: blur(20px)
+    -webkit-filter: blur(20px)
+    height: 100%
+    width: 100%
+.wrapper
+    position: absolute
+    top: 0px
+    left: 0px
+    right: 0px
+    bottom: 0px
+    padding: 50px 0px 50px
+    overflow: auto
+.page-content
+    max-width: 900px
+    margin: 0px auto
+    border-radius: 30px
+    overflow: hidden
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8 )
+    .head
+        height: 30vh
+        background-color: #6C63FF
+        background-image: url('../images/header.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+        display: flex
+        z-index: 1
+        margin: 0px
+        .head-body
+            flex: 1
+            display: flex
+            justify-content: center
+            align-items: center
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(#8c7ae6,0.8 ))
+            h1
+                color: #fff
+                font-size: 4rem
+                text-shadow: 0px 0px 10px rgba(0,0,0,.8 )
+
+    .container
+        
+        z-index: 2
+        background: #2f3640 
+        .tabs
+            
+            .nav
+                padding: 0
+                margin: 0px
+                display: flex
+                justify-content: space-around
+                list-style: none
+                font-size: 2rem
+                height: 50px
+                .nav-element
+                    flex: 1
+                    text-align: center                
+                    height: 50px
+                    line-height: 50px
+                    cursor: pointer
+                    transition: all 0.25s ease
+                    color: lighten(#333,30% )
+                    border-radius: 10px 10px 0px 0px
+                    
+                    &:hover
+                        height: 70px
+                        line-height: 70px
+                        transform: translateY(-20px)
+                        background: #8c7ae6
+                        color: #fff
+                        text-shadow: 0px 0px 10px rgba(0,0,0,.8 )
+                    &.active
+                        background: #fff
+                        color: #353b48
+                        height: 80px
+                        transform: translateY(-30px)
+                        line-height: 80px
+                        box-shadow: 0px -5px 5px rgba(#8c7ae6,0.8)
+                        text-shadow: none
+                        
+        .content
+            background: #fff
+            color: #353b48
+            padding: 2rem 
+            font-family: 'Roboto', sans-serif
+            .hidden
+                display: none
+            .menus
+                display: flex
+                justify-content: space-around
+                align-items: flex-start
+                list-style: none
+                padding: 0
+                flex-wrap: wrap
+                color: #fff
+                .menu
+                    height: 400px
+                    width: 400px
+                    margin-bottom: 2rem
+                    background: #fff
+                    border-radius: 10px
+                    overflow: hidden
+                    box-shadow: 0px 25px 10px -10px rgba(0,0,0,0.2)
+                    transition: all 0.25s ease
+                    
+                    position: relative
+                    .price
+                        position: absolute
+                        top: 10%
+                        right: -500px
+                        background: rgba(0,0,0,.8 )
+                        padding: 1rem
+                        border-radius: 30px 0px 0px 30px
+                        font-size: 1.2rem
+                        transition: all 0.25s ease
+                        transition-delay: 0.25s
+                    .title
+                        font-size: 1.2rem
+                        position: absolute
+                        left: 0px
+                        right: 0px
+                        
+                        bottom:-500px 
+                        background: rgba(0,0,0 ,.8 )
+                        padding: 1rem
+                        padding-top: 1.5rem
+                        text-align: center
+                        transition: all 0.25s ease
+                        max-height: 50%
+                    img
+                        width: 400px
+                        height: 400px
+                        object-fit: cover
+                        transition: all 1s ease
+                        transition-delay: 0.1s
+                    &:hover
+                        transform: scale(.95)
+                        box-shadow: 0px 5px 20px rgba(0,0,0,0.5)
+                        img
+                            transition: all 5s ease
+                            transform: scale(1.2)
+                        .price
+                            right: 0px
+                        .title
+                            bottom: 0px
+                    
+
+         
+                        
