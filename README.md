@@ -25,7 +25,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-![](https://github.com/tigamadou/portfolio/workflows/CI/badge.svg)
+![](https://github.com/tigamadou/restaurant-page/workflows/CI/badge.svg)
 
 
 <!-- PROJECT LOGO -->
@@ -145,26 +145,23 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 👤 **Amadou IBRAHIM**
 
-- Github: [@genzaraki](https://github.com/genzaraki)
+- Github: [@genzaraki](https://github.com/tigamadou)
 - Twitter: [@tigamadou](https://twitter.com/tigamadou)
 - Linkedin: [Amadou IBRAHIM](https://www.linkedin.com/in/amadou-ibrahim/)
 
-Project Link: [https://github.com/tigamadou/portfolio](https://github.com/tigamadou/portfolio)
+Project Link: [https://github.com/tigamadou/restaurant-page](https://github.com/tigamadou/restaurant-page)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Microverse](https://microverse.org)
-* [Bulma](https://getbootstrap.com)
-* [ReactJs](https://github.com/facebook/react/)
-* [Create React App](https://github.com/facebook/create-react-app)
-* [Undraw](https://undraw.co/)
-* [React Icons](https://react-icons.github.io/react-icons/)
-* [React Router](https://reacttraining.com/react-router/web)
-* [React Reveal](https://www.react-reveal.com/)
+* [WebPack](https://getbootstrap.com)
+* [Javascript ES6](https://github.com/facebook/react/)
+* [Unsplash](https://unsplash.com/)
 * [Eslint](https://eslint.org/)
-* [Heroku](https://www.heroku.com/)
+* [GitHub Actions](https://github.com/features/actions)
+* [GitHub Pages](https://www.heroku.com/)
 
 
 
@@ -173,16 +170,16 @@ Project Link: [https://github.com/tigamadou/portfolio](https://github.com/tigama
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/tigamadou/portfolio.svg?style=flat-square
-[contributors-url]: https://github.com/tigamadou/portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tigamadou/portfolio.svg?style=flat-square
-[forks-url]: https://github.com/tigamadou/portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/tigamadou/portfolio.svg?style=flat-square
-[stars-url]: https://github.com/tigamadou/portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/tigamadou/portfolio.svg?style=flat-square
-[issues-url]: https://github.com/tigamadou/portfolio/issues
-[license-shield]: https://img.shields.io/github/license/tigamadou/portfolio.svg?style=flat-square
-[license-url]: https://github.com/tigamadou/portfolio/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/tigamadou/restaurant-page.svg?style=flat-square
+[contributors-url]: https://github.com/tigamadou/restaurant-page/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tigamadou/restaurant-page.svg?style=flat-square
+[forks-url]: https://github.com/tigamadou/restaurant-page/network/members
+[stars-shield]: https://img.shields.io/github/stars/tigamadou/restaurant-page.svg?style=flat-square
+[stars-url]: https://github.com/tigamadou/restaurant-page/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tigamadou/restaurant-page.svg?style=flat-square
+[issues-url]: https://github.com/tigamadou/restaurant-page/issues
+[license-shield]: https://img.shields.io/github/license/tigamadou/restaurant-page.svg?style=flat-square
+[license-url]: https://github.com/tigamadou/restaurant-page/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/amadou-ibrahim
 [product-screenshot]: images/screenshot.png
