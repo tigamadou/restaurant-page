@@ -24,9 +24,8 @@ export default function Menu() {
     title.className = 'title';
     title.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.';
 
-    menu.appendChild(image);
-    menu.appendChild(price);
-    menu.appendChild(title);
+    menu.append(image, price, title);
+
     menus.appendChild(menu);
   }
 
